@@ -15,10 +15,11 @@ class GBASoundDriver : public SoundDriver
 public:
     GBASoundDriver();
     virtual ~GBASoundDriver();
-    
+
     virtual bool init(long sampleRate);
     virtual void pause();
     virtual void reset();
     virtual void resume();
     virtual void write(uint16_t *finalWave, int length);
+    virtual void setThrottle(unsigned short throttle) {}
 };
