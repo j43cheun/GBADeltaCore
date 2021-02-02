@@ -1491,6 +1491,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "VBA-M";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/visualboyadvance-m/fex\" \"$(SRCROOT)/visualboyadvance-m/src\" \"$(SRCROOT)/visualboyadvance-m/third_party/include/stb\"";
 			};
 			name = Debug;
 		};
@@ -1504,6 +1505,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "VBA-M";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/visualboyadvance-m/fex\" \"$(SRCROOT)/visualboyadvance-m/src\" \"$(SRCROOT)/visualboyadvance-m/third_party/include/stb\"";
 			};
 			name = Release;
 		};
